@@ -1,4 +1,5 @@
 import Es_1.Es1;
+import Es_2.Es2;
 
 import java.util.Scanner;
 
@@ -10,8 +11,10 @@ public class Main {
 
         System.out.println("-----Es.1-----");
         Es1 es1 = new Es1();
-        es1.setList(sc);
+       // es1.setList(sc);
 
         System.out.println("-----Es.2-----");
+        Es2 es2 = new Es2();
+        es2.printListRandom(sc);
     }
 }
