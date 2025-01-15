@@ -15,6 +15,9 @@ public class Main {
 
         System.out.println("-----Es.2-----");
         Es2 es2 = new Es2();
-        es2.printListRandom(sc);
+       // es2.printListRandom(sc);
+
+        System.out.println("-----Es.3-----");
+
     }
 }
